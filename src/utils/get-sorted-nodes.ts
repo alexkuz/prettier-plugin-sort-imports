@@ -1,7 +1,7 @@
 // we do not have types for javascript-natural-sort
 //@ts-ignore
 import naturalSort from 'javascript-natural-sort';
-import { compact, isEqual, pull, clone } from 'lodash';
+import { compact, isEqual, pull, clone, difference } from 'lodash';
 
 import {
     ImportDeclaration,
@@ -10,7 +10,6 @@ import {
     removeComments,
 } from '@babel/types';
 
-import { isSimilarTextExistInArray } from './is-similar-text-in-array';
 import { PrettierOptions } from '../types';
 import { newLineNode } from '../constants';
 
@@ -25,6 +24,7 @@ export const getSortedNodes = (
     nodes: ImportDeclaration[],
     order: PrettierOptions['importOrder'],
     importOrderSeparation: boolean,
+    importOrderKind: PrettierOptions['importOrderKind'],
 ) => {
     const originalNodes = nodes.map(clone);
     const newLine =
@@ -33,9 +33,15 @@ export const getSortedNodes = (
         (
             res: (ImportDeclaration | ExpressionStatement)[],
             val,
+            index
         ): (ImportDeclaration | ExpressionStatement)[] => {
+            const re = new RegExp(val);
+            const kind = importOrderKind[index];
             const x = originalNodes.filter(
-                (node) => node.source.value.match(new RegExp(val)) !== null,
+                (node) => {
+                    const matchImportKind = kind ? kind === (node.importKind || 'value') : true;
+                    return matchImportKind && node.source.value.match(re) !== null;
+                },
             );
 
             // remove "found" imports from the list of nodes
@@ -54,9 +60,7 @@ export const getSortedNodes = (
         [],
     );
 
-    const sortedNodesNotInImportOrder = originalNodes.filter(
-        (node) => !isSimilarTextExistInArray(order, node.source.value),
-    );
+    const sortedNodesNotInImportOrder = difference(originalNodes, sortedNodesByImportOrder) as ImportDeclaration[];
 
     sortedNodesNotInImportOrder.sort((a, b) =>
         naturalSort(a.source.value, b.source.value),

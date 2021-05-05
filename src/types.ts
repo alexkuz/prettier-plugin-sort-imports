@@ -5,4 +5,5 @@ export interface PrettierOptions extends RequiredOptions {
     importOrder: string[];
     importOrderSeparation: boolean;
     experimentalBabelParserPluginsList: ParserPlugin[];
+    importOrderKind: Array<"type" | "typeof" | "value" | "">;
 }

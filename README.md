@@ -69,6 +69,23 @@ module.exports = {
 }
 ```
 
+#### `importOrderKind`
+A collection of strings to filter out `importOrder` matches by its kind. Possible values are `""` (any kind of import), `"value"`, `"type"` or `"typeof"`. This optional collection can be used, for example, to move `import type` Flowtype declarations to a separate block. Note that imports with type specifiers in brackets (`import { type MyType } from 'module'`) will be treated as value imports.
+
+```ecmascript 6
+module.exports = {
+  "printWidth": 80,
+  "tabWidth": 4,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "jsxBracketSameLine": true,
+  "semi": true,
+  "importOrder": ["^@core/(.*)$", "^@server/(.*)$", "^@ui/(.*)$", "^[./]", "."],
+  "importOrderSeparation": true,
+  "importOrderKind": ["value", "value", "value", "value", "type"]
+}
+```
+
 
 ### How does import sort work ?
 

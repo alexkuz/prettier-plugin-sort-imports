@@ -1,5 +1,1499 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`it returns all sorted nodes (with type imports) 1`] = `
+Array [
+  Node {
+    "end": 191,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": Array [
+      Object {
+        "end": 16,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 16,
+            "line": 1,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "start": 0,
+        "type": "CommentLine",
+        "value": " first comment",
+      },
+      Object {
+        "end": 34,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 17,
+            "line": 2,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "line": 2,
+          },
+        },
+        "start": 17,
+        "type": "CommentLine",
+        "value": " second comment",
+      },
+    ],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 9,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 9,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 190,
+      "extra": Object {
+        "raw": "'a'",
+        "rawValue": "a",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 9,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 9,
+        },
+      },
+      "range": undefined,
+      "start": 187,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "a",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 181,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 9,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 9,
+          },
+        },
+        "local": Node {
+          "end": 181,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 9,
+            },
+            "filename": undefined,
+            "identifierName": "a",
+            "start": Position {
+              "column": 7,
+              "line": 9,
+            },
+          },
+          "name": "a",
+          "range": undefined,
+          "start": 180,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 180,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 173,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 77,
+    "extra": undefined,
+    "importKind": "type",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 23,
+        "line": 4,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 4,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 76,
+      "extra": Object {
+        "raw": "'c'",
+        "rawValue": "c",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 22,
+          "line": 4,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 19,
+          "line": 4,
+        },
+      },
+      "range": undefined,
+      "start": 73,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "c",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 67,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 13,
+            "line": 4,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 12,
+            "line": 4,
+          },
+        },
+        "local": Node {
+          "end": 67,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 13,
+              "line": 4,
+            },
+            "filename": undefined,
+            "identifierName": "c",
+            "start": Position {
+              "column": 12,
+              "line": 4,
+            },
+          },
+          "name": "c",
+          "range": undefined,
+          "start": 66,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 66,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 54,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 53,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 3,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 3,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 52,
+      "extra": Object {
+        "raw": "'z'",
+        "rawValue": "z",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 3,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 3,
+        },
+      },
+      "range": undefined,
+      "start": 49,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "z",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 43,
+        "extra": undefined,
+        "innerComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 3,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 3,
+          },
+        },
+        "local": Node {
+          "end": 43,
+          "extra": undefined,
+          "innerComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 3,
+            },
+            "filename": undefined,
+            "identifierName": "z",
+            "start": Position {
+              "column": 7,
+              "line": 3,
+            },
+          },
+          "name": "z",
+          "range": undefined,
+          "start": 42,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 42,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 35,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+  Node {
+    "end": 172,
+    "extra": undefined,
+    "importKind": "typeof",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 25,
+        "line": 8,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 8,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 171,
+      "extra": Object {
+        "raw": "'b'",
+        "rawValue": "b",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 24,
+          "line": 8,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 21,
+          "line": 8,
+        },
+      },
+      "range": undefined,
+      "start": 168,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "b",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 162,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 15,
+            "line": 8,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 14,
+            "line": 8,
+          },
+        },
+        "local": Node {
+          "end": 162,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 15,
+              "line": 8,
+            },
+            "filename": undefined,
+            "identifierName": "b",
+            "start": Position {
+              "column": 14,
+              "line": 8,
+            },
+          },
+          "name": "b",
+          "range": undefined,
+          "start": 161,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 161,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 147,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+  Node {
+    "end": 146,
+    "extra": undefined,
+    "importKind": "typeof",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 25,
+        "line": 7,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 7,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 145,
+      "extra": Object {
+        "raw": "'k'",
+        "rawValue": "k",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 24,
+          "line": 7,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 21,
+          "line": 7,
+        },
+      },
+      "range": undefined,
+      "start": 142,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "k",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 136,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 15,
+            "line": 7,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 14,
+            "line": 7,
+          },
+        },
+        "local": Node {
+          "end": 136,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 15,
+              "line": 7,
+            },
+            "filename": undefined,
+            "identifierName": "k",
+            "start": Position {
+              "column": 14,
+              "line": 7,
+            },
+          },
+          "name": "k",
+          "range": undefined,
+          "start": 135,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 135,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 121,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+  Node {
+    "end": 120,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 6,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 6,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 119,
+      "extra": Object {
+        "raw": "'t'",
+        "rawValue": "t",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 6,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 6,
+        },
+      },
+      "range": undefined,
+      "start": 116,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "t",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 110,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 6,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 6,
+          },
+        },
+        "local": Node {
+          "end": 110,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 6,
+            },
+            "filename": undefined,
+            "identifierName": "t",
+            "start": Position {
+              "column": 7,
+              "line": 6,
+            },
+          },
+          "name": "t",
+          "range": undefined,
+          "start": 109,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 109,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 102,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+  Node {
+    "end": 101,
+    "extra": undefined,
+    "importKind": "type",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 23,
+        "line": 5,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 5,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 100,
+      "extra": Object {
+        "raw": "'g'",
+        "rawValue": "g",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 22,
+          "line": 5,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 19,
+          "line": 5,
+        },
+      },
+      "range": undefined,
+      "start": 97,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "g",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 91,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 13,
+            "line": 5,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 12,
+            "line": 5,
+          },
+        },
+        "local": Node {
+          "end": 91,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 13,
+              "line": 5,
+            },
+            "filename": undefined,
+            "identifierName": "g",
+            "start": Position {
+              "column": 12,
+              "line": 5,
+            },
+          },
+          "name": "g",
+          "range": undefined,
+          "start": 90,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 90,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 78,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+]
+`;
+
+exports[`it returns all sorted nodes (with type imports), sorted by import kind 1`] = `
+Array [
+  Node {
+    "end": 191,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": Array [
+      Object {
+        "end": 16,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 16,
+            "line": 1,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "line": 1,
+          },
+        },
+        "start": 0,
+        "type": "CommentLine",
+        "value": " first comment",
+      },
+      Object {
+        "end": 34,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 17,
+            "line": 2,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 0,
+            "line": 2,
+          },
+        },
+        "start": 17,
+        "type": "CommentLine",
+        "value": " second comment",
+      },
+    ],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 9,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 9,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 190,
+      "extra": Object {
+        "raw": "'a'",
+        "rawValue": "a",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 9,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 9,
+        },
+      },
+      "range": undefined,
+      "start": 187,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "a",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 181,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 9,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 9,
+          },
+        },
+        "local": Node {
+          "end": 181,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 9,
+            },
+            "filename": undefined,
+            "identifierName": "a",
+            "start": Position {
+              "column": 7,
+              "line": 9,
+            },
+          },
+          "name": "a",
+          "range": undefined,
+          "start": 180,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 180,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 173,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 172,
+    "extra": undefined,
+    "importKind": "typeof",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 25,
+        "line": 8,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 8,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 171,
+      "extra": Object {
+        "raw": "'b'",
+        "rawValue": "b",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 24,
+          "line": 8,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 21,
+          "line": 8,
+        },
+      },
+      "range": undefined,
+      "start": 168,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "b",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 162,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 15,
+            "line": 8,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 14,
+            "line": 8,
+          },
+        },
+        "local": Node {
+          "end": 162,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 15,
+              "line": 8,
+            },
+            "filename": undefined,
+            "identifierName": "b",
+            "start": Position {
+              "column": 14,
+              "line": 8,
+            },
+          },
+          "name": "b",
+          "range": undefined,
+          "start": 161,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 161,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 147,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 77,
+    "extra": undefined,
+    "importKind": "type",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 23,
+        "line": 4,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 4,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 76,
+      "extra": Object {
+        "raw": "'c'",
+        "rawValue": "c",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 22,
+          "line": 4,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 19,
+          "line": 4,
+        },
+      },
+      "range": undefined,
+      "start": 73,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "c",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 67,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 13,
+            "line": 4,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 12,
+            "line": 4,
+          },
+        },
+        "local": Node {
+          "end": 67,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 13,
+              "line": 4,
+            },
+            "filename": undefined,
+            "identifierName": "c",
+            "start": Position {
+              "column": 12,
+              "line": 4,
+            },
+          },
+          "name": "c",
+          "range": undefined,
+          "start": 66,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 66,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 54,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 101,
+    "extra": undefined,
+    "importKind": "type",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 23,
+        "line": 5,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 5,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 100,
+      "extra": Object {
+        "raw": "'g'",
+        "rawValue": "g",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 22,
+          "line": 5,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 19,
+          "line": 5,
+        },
+      },
+      "range": undefined,
+      "start": 97,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "g",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 91,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 13,
+            "line": 5,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 12,
+            "line": 5,
+          },
+        },
+        "local": Node {
+          "end": 91,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 13,
+              "line": 5,
+            },
+            "filename": undefined,
+            "identifierName": "g",
+            "start": Position {
+              "column": 12,
+              "line": 5,
+            },
+          },
+          "name": "g",
+          "range": undefined,
+          "start": 90,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 90,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 78,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 120,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 6,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 6,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 119,
+      "extra": Object {
+        "raw": "'t'",
+        "rawValue": "t",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 6,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 6,
+        },
+      },
+      "range": undefined,
+      "start": 116,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "t",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 110,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 6,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 6,
+          },
+        },
+        "local": Node {
+          "end": 110,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 6,
+            },
+            "filename": undefined,
+            "identifierName": "t",
+            "start": Position {
+              "column": 7,
+              "line": 6,
+            },
+          },
+          "name": "t",
+          "range": undefined,
+          "start": 109,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 109,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 102,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Node {
+    "end": 53,
+    "extra": undefined,
+    "importKind": "value",
+    "innerComments": null,
+    "leadingComments": null,
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 18,
+        "line": 3,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 3,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 52,
+      "extra": Object {
+        "raw": "'z'",
+        "rawValue": "z",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 17,
+          "line": 3,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 14,
+          "line": 3,
+        },
+      },
+      "range": undefined,
+      "start": 49,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "z",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 43,
+        "extra": undefined,
+        "innerComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 8,
+            "line": 3,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 7,
+            "line": 3,
+          },
+        },
+        "local": Node {
+          "end": 43,
+          "extra": undefined,
+          "innerComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 8,
+              "line": 3,
+            },
+            "filename": undefined,
+            "identifierName": "z",
+            "start": Position {
+              "column": 7,
+              "line": 3,
+            },
+          },
+          "name": "z",
+          "range": undefined,
+          "start": 42,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 42,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 35,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+  Node {
+    "end": 146,
+    "extra": undefined,
+    "importKind": "typeof",
+    "innerComments": null,
+    "leadingComments": Array [],
+    "loc": SourceLocation {
+      "end": Position {
+        "column": 25,
+        "line": 7,
+      },
+      "filename": undefined,
+      "identifierName": undefined,
+      "start": Position {
+        "column": 0,
+        "line": 7,
+      },
+    },
+    "range": undefined,
+    "source": Node {
+      "end": 145,
+      "extra": Object {
+        "raw": "'k'",
+        "rawValue": "k",
+      },
+      "innerComments": undefined,
+      "leadingComments": undefined,
+      "loc": SourceLocation {
+        "end": Position {
+          "column": 24,
+          "line": 7,
+        },
+        "filename": undefined,
+        "identifierName": undefined,
+        "start": Position {
+          "column": 21,
+          "line": 7,
+        },
+      },
+      "range": undefined,
+      "start": 142,
+      "trailingComments": undefined,
+      "type": "StringLiteral",
+      "value": "k",
+    },
+    "specifiers": Array [
+      Node {
+        "end": 136,
+        "extra": undefined,
+        "innerComments": undefined,
+        "leadingComments": undefined,
+        "loc": SourceLocation {
+          "end": Position {
+            "column": 15,
+            "line": 7,
+          },
+          "filename": undefined,
+          "identifierName": undefined,
+          "start": Position {
+            "column": 14,
+            "line": 7,
+          },
+        },
+        "local": Node {
+          "end": 136,
+          "extra": undefined,
+          "innerComments": undefined,
+          "leadingComments": undefined,
+          "loc": SourceLocation {
+            "end": Position {
+              "column": 15,
+              "line": 7,
+            },
+            "filename": undefined,
+            "identifierName": "k",
+            "start": Position {
+              "column": 14,
+              "line": 7,
+            },
+          },
+          "name": "k",
+          "range": undefined,
+          "start": 135,
+          "trailingComments": undefined,
+          "type": "Identifier",
+        },
+        "range": undefined,
+        "start": 135,
+        "trailingComments": undefined,
+        "type": "ImportDefaultSpecifier",
+      },
+    ],
+    "start": 121,
+    "trailingComments": null,
+    "type": "ImportDeclaration",
+  },
+  Object {
+    "expression": Object {
+      "type": "StringLiteral",
+      "value": "PRETTIER_PLUGIN_SORT_IMPORTS_NEW_LINE",
+    },
+    "innerComments": null,
+    "leadingComments": Array [],
+    "trailingComments": null,
+    "type": "ExpressionStatement",
+  },
+]
+`;
+
 exports[`it returns all sorted nodes 1`] = `
 Array [
   Node {

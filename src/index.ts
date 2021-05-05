@@ -5,11 +5,31 @@ import { preprocessor } from './preprocessor';
 
 const options = {
     importOrder: {
-        type: 'path',
+        type: 'string',
         category: 'Global',
         array: true,
         default: [{ value: [] }],
         description: 'Provide an order to sort imports.',
+    },
+    importOrderKind: {
+        type: 'choice',
+        category: 'Global',
+        array: true,
+        default: [{ value: [] }],
+        description: 'Specify a kind of import for pattern in importOrder',
+        choices: [{
+            value: '',
+            description: 'Any kind of import'
+        }, {
+            value: 'value',
+            description: 'Value import'
+        }, {
+            value: 'type',
+            description: 'Type import'
+        }, {
+            value: 'typeof',
+            description: 'Typeof import'
+        }]
     },
     importOrderSeparation: {
         type: 'boolean',
@@ -18,7 +38,7 @@ const options = {
         description: 'Should imports be separated by new line ?',
     },
     experimentalBabelParserPluginsList: {
-        type: 'path',
+        type: 'string',
         category: 'Global',
         array: true,
         default: [{ value: [] }],
